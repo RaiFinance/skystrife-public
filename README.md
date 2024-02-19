@@ -34,8 +34,8 @@ Sky Strife is broken into several sub-packages. Here are the packages that are e
 
 ## Steps
 
-1. Install latest forge using `foundryup` (see [foundry docs](https://book.getfoundry.sh/getting-started/installation))
-2. Run `pnpm` in the base directory to install all dependencies and compile contracts.
+1. `yarn install` install all dependencies
+2. Run `pnpm install` in the base directory to install all dependencies and compile contracts.
 3. Run `pnpm dev` to start your local node, deploy contracts, and start the client.
 
 # Using Local MUD

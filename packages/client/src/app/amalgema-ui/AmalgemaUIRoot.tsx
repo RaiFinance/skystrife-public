@@ -42,7 +42,7 @@ export const AmalgemaUIRoot = () => {
 
   return (
     <div className="flex h-screen">
-      <DevTools />
+      {/* <DevTools /> */}
 
       <div className="h-screen flex flex-col grow">
         <Header />
