@@ -26,7 +26,8 @@
     "dev:contracts": "DEBUG=mud:* pnpm --filter contracts run dev",
     "dev:upload-map": "wait-port localhost:8545 && sleep 60 && pnpm --filter headless-client run upload-map:dev",
     "dev:copy-maps": "wait-port localhost:8545 && sleep 70 && pnpm --filter headless-client run copy-maps:dev",
-    "dev:create-debug-matches": "wait-port localhost:8545 && pnpm --filter headless-client run create-debug-matches:dev"
+    "dev:create-debug-matches": "wait-port localhost:8545 && pnpm --filter headless-client run create-debug-matches:dev",
+    "build": "cd packages/client && yarn build"
   },
   "devDependencies": {
     "@latticexyz/cli": "2.0.0-main-5ab67e33",
